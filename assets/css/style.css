@@ -488,7 +488,8 @@ h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started,
+#departments .btn-get-started {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -503,7 +504,8 @@ h6 {
   background: var(--primary-color);
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-get-started:hover,
+#departments .btn-get-started:hover {
   background: var(--secondary-color);
   color: var(--primary-color)
 }
@@ -789,7 +791,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/navneet_arora_main.jpeg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -927,6 +929,7 @@ section {
   border: 1px solid var(--secondary-color);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
+  width: 100%;
 }
 
 .services .icon-box .icon {
@@ -965,9 +968,6 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
-}
-
-.services .icon-box h4 a {
   color: var(--primary-color);
 }
 
@@ -994,7 +994,7 @@ section {
   background: var(--secondary-color-op-four);
 }
 
-.services .icon-box:hover h4 a,
+.services .icon-box:hover h4,
 .services .icon-box:hover p {
   color: #fff;
 }
