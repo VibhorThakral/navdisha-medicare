@@ -1506,6 +1506,72 @@ section {
   color: #fff;
 }
 
+.appointment .appointment-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.appointment .appointment-info div {
+  max-width: 33%;
+}
+
+.appointment .appointment-info i {
+  font-size: 20px;
+  color: var(--primary-color);
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.appointment .appointment-info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+.appointment .appointment-info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: var(--primary-dark-color);
+}
+
+.appointment .appointment-info .email,
+.appointment .appointment-info .phone {
+  margin-top: 40px;
+}
+
+.appointment .appointment-info .email:hover i,
+.appointment .appointment-info .address:hover i,
+.appointment .appointment-info .phone:hover i {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+@media screen and (max-width: 769px) {
+  .appointment .appointment-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .appointment .appointment-info div {
+    max-width: 100%;
+  }
+}
+
 .contact .php-email-form {
   width: 100%;
   background: #fff;
