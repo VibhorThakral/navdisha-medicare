@@ -125,7 +125,7 @@ h6 {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #444444;
+  color: #444;
   transition: 0.3s;
 }
 
@@ -160,6 +160,9 @@ h6 {
   border-left: 0;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -167,7 +170,7 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 15px 0 0;
   top: 40px;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
@@ -220,6 +223,8 @@ h6 {
     padding: 6px 18px;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -543,6 +548,32 @@ h6 {
     height: 110vh;
   }
 }
+
+/*--------------------------------------------------------------
+# Bottom Bar
+--------------------------------------------------------------*/
+#bottombar {
+  background: var(--primary-color);
+  min-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  z-index: 996;
+}
+
+#bottombar .contact-info {
+  text-align: center;
+  padding: 15px 0;
+}
+
+#bottombar .contact-info p {
+  color: white;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+
+
 
 /*--------------------------------------------------------------
 # Sections General
