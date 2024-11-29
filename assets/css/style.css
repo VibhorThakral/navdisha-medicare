@@ -76,8 +76,7 @@ h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  visibility: hidden;
-  opacity: 0;
+  opacity: 1;
   right: 15px;
   bottom: 15px;
   z-index: 996;
@@ -88,8 +87,22 @@ h6 {
   transition: all 0.4s;
 }
 
-.back-to-top i {
-  font-size: 28px;
+.back-to-top-whatsapp {
+  position: fixed;
+  opacity: 1;
+  right: 15px;
+  bottom: 65px;
+  z-index: 996;
+  background: #26d265;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i,
+.back-to-top-whatsapp {
+  font-size: 20px;
   color: #fff;
   line-height: 0;
 }
@@ -99,7 +112,8 @@ h6 {
   color: #fff;
 }
 
-.back-to-top.active {
+.back-to-top.active,
+.back-to-top-whatsapp.active {
   visibility: visible;
   opacity: 1;
 }
